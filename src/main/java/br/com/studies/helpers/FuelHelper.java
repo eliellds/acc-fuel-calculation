@@ -45,7 +45,7 @@ public class FuelHelper {
 
                 showMessage("Total de voltas aproximado: " + totalLaps.setScale(0, RoundingMode.UP) + " \n" +
                         "Combustível recomendado: " + recommendedFuel.setScale(1, RoundingMode.UP) + "L \n" +
-                        "Combustível em caso de volta de formação completa: " + formationLapFuel.setScale(1, RoundingMode.UP) + "L \n" +
+                        "Combustível em caso de volta de formação completa: " + formationLapFuel.setScale(1, RoundingMode.UP) + "L      \n" +
                         "Combustível mínimo: " + minimumFuel.setScale(1, RoundingMode.UP) + "L");
 
                 LOGGER.info("Fim do calculo de combustivel.");
