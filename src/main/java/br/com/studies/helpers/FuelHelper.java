@@ -16,26 +16,26 @@ public class FuelHelper {
     public static void calculateFuel() {
 
         while (true) {
-            LOGGER.info("Início do programa de cálculo de combustível.");
+            LOGGER.info("Inicio do programa de calculo de combustivel.");
 
             String raceLength = getMaskedUserInput("Insira a duração da corrida (ex.: 20m): ", "##min", "00m");
             String lapTime = getMaskedUserInput("Insira o tempo de volta (ex.: 01:42.724): ", "##:##.###", "00:00.000");
             String fuelConsumptionPerLap = getMaskedUserInput("Insira o consumo por volta (ex.: 2,7): ", null, "0,0");
 
-            LOGGER.info("Início da conversão para milisegundos.");
+            LOGGER.info("Inicio da conversao para milisegundos.");
             int convertedLapTime = convertMinutesToMiliSeconds(lapTime);
             int convertedRaceLength = convertMinutesToMiliSeconds(raceLength) + convertedLapTime;
             BigDecimal convertedFuelConsuption = convertFuelConsuption(fuelConsumptionPerLap);
-            LOGGER.info("Fim da conversão para milisegundos.");
+            LOGGER.info("Fim da conversao para milisegundos.");
 
-            LOGGER.info("Início da verificação de erros.");
+            LOGGER.info("Inicio da verificacao de erros.");
             verifyErrors(convertedLapTime, "Tempo de volta inválido.");
             verifyErrors(convertedRaceLength, "Duração da corrida inválida.");
             verifyErrors(convertedFuelConsuption.intValue(), "Volume de combustível inválido.");
-            LOGGER.info("Fim da verificação de erros.");
+            LOGGER.info("Fim da verificacao de erros.");
 
             if (convertedLapTime != 0 && convertedRaceLength != 0 && convertedFuelConsuption.intValue() != 0) {
-                LOGGER.info("Início da verificação de erros.");
+                LOGGER.info("Inicio do calculo de combustivel.");
 
                 BigDecimal totalLaps = BigDecimal.valueOf(convertedRaceLength / convertedLapTime);
 
@@ -48,13 +48,13 @@ public class FuelHelper {
                         "Combustível em caso de volta de formação completa: " + formationLapFuel.setScale(1, RoundingMode.UP) + "L \n" +
                         "Combustível mínimo: " + minimumFuel.setScale(1, RoundingMode.UP) + "L");
 
-                LOGGER.info("Fim do cálculo de combustível.");
+                LOGGER.info("Fim do calculo de combustivel.");
             }
 
             int option = showConfirmation();
 
             if (option != JOptionPane.YES_OPTION) {
-                LOGGER.info("Fim do programa de cálculo de combustível.");
+                LOGGER.info("Fim do programa de calculo de combustivel.");
                 break;
             }
 
