@@ -6,8 +6,8 @@ Pequeno projeto criado para facilitar o cálculo de combustível por corrida den
 
 Ao executar o programa, o primeiro pop-up solicita ao usuário que insira qual a duração da corrida em minutos:
 
-![Captura de tela 2023-11-18 194856](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/c804e3f6-db83-4826-abfc-95540a821222)
-![Captura de tela 2023-11-18 194931](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/f6658964-6bd8-49a2-b32c-f5a9f59dc90e)
+![Captura de tela 2023-11-18 203615](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/0f06c57b-4142-4c1c-9124-6ea8d7159e74)
+![Captura de tela 2023-11-18 203638](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/6da17731-8500-4d25-9575-f1d0f79d073e)
 
 
 A próxima tela solicita que seja informado o tempo de volta do corredor:
