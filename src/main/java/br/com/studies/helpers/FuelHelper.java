@@ -18,7 +18,7 @@ public class FuelHelper {
         while (true) {
             LOGGER.info("Inicio do programa de calculo de combustivel.");
 
-            String raceLength = getMaskedUserInput("Insira a duração da corrida (ex.: 20m): ", "##min", "00m");
+            String raceLength = getMaskedUserInput("Insira a duração da corrida (ex.: 20min): ", "##min", "00m");
             String lapTime = getMaskedUserInput("Insira o tempo de volta (ex.: 01:42.724): ", "##:##.###", "00:00.000");
             String fuelConsumptionPerLap = getMaskedUserInput("Insira o consumo por volta (ex.: 2,7): ", null, "0,0");
 
