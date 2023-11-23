@@ -11,6 +11,12 @@ public class FuelHelper {
 
     private static final Logger LOGGER = Logger.getLogger("FuelHelper");
 
+    static {
+        UIManager.put("OptionPane.yesButtonText", "Sim");
+        UIManager.put("OptionPane.noButtonText", "Não");
+        UIManager.put("OptionPane.cancelButtonText", "Cancelar");
+    }
+
     private FuelHelper() {}
 
     public static void calculateFuel() {
