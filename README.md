@@ -1,25 +1,27 @@
 # acc-fuel-calculation
 Pequeno projeto criado para facilitar o cálculo de combustível por corrida dentro do simulador Assetto Corsa Competizione.
 ##
+# Tecnologia
+<img align="center" alt="Java" title="Java" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"/>Java 17.0.8
+##
 
 # Como o sistema funciona
 
 Ao executar o programa, o primeiro pop-up solicita ao usuário que insira qual a duração da corrida em minutos:
 
-![Captura de tela 2023-11-18 203615](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/0f06c57b-4142-4c1c-9124-6ea8d7159e74)
-![Captura de tela 2023-11-18 203638](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/6da17731-8500-4d25-9575-f1d0f79d073e)
+![Captura de tela 2023-11-22 232318](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/0c5142bb-eeb3-4a98-8e6b-93fb89c297de)
+![Captura de tela 2023-11-22 232338](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/e4b212d6-9274-4433-8501-9924396f2cbf)
 
 
 A próxima tela solicita que seja informado o tempo de volta do corredor:
 
-![Captura de tela 2023-11-18 194959](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/e921b23c-c1d8-4480-859e-df2c48b23fb9)
-![Captura de tela 2023-11-18 195014](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/78ce77b6-03da-4328-9558-23556e72998a)
+![Captura de tela 2023-11-22 232357](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/0c09ed00-c7f6-4e3b-a0e6-3b692e01738f)
+![Captura de tela 2023-11-22 232414](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/96523742-ce5f-45fd-b64d-7f7e6d3dafa5)
 
 
 Por último, deve ser informado aproximadamente quantos litros de combustível o carro consome por volta:
-
-![Captura de tela 2023-11-18 195022](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/fc059695-7918-4fd1-982e-19c4414e6b06)
-![Captura de tela 2023-11-18 195031](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/bcf2147c-5cf5-4b6f-bbbe-56f469f86b6f)
+![Captura de tela 2023-11-22 232638](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/780d974c-e059-483c-919e-6e12e368d9fa)
+![Captura de tela 2023-11-22 232452](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/3f8f1808-4bd0-44e9-9f11-9c9ddd193f88)
 
 
 Então é informado ao usuário o cálculo aproximado de combustível recomendado. Também são exibidas informações de quantas voltas aproximadas a corrida terá, qual o cálculo de combustível caso haja uma volta de formação completa pela pista e o combustível mínimo necessário para realizar a corrida:
@@ -29,5 +31,5 @@ Então é informado ao usuário o cálculo aproximado de combustível recomendad
 
 Por fim, é exibida uma mensagem perguntando ao usuário se ele deseja realizar um novo cálculo ou encerrar o programa:
 
-![Captura de tela 2023-11-18 195141](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/103b1415-ce46-4fc6-937e-2979ce64e6af)
+![Captura de tela 2023-11-22 232544](https://github.com/eliellds/acc-fuel-calculation/assets/85817324/ee69de4b-5819-423b-b9d2-17b566d186d1)
 
