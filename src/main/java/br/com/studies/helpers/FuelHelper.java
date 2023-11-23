@@ -59,7 +59,7 @@ public class FuelHelper {
             }
 
         }
-
+        System.exit(0);
     }
 
     private static int convertMinutesToMiliSeconds(String time) {
